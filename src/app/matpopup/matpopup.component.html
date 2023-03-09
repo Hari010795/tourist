@@ -1,0 +1,10 @@
+<label style=  " display:flex ;float:right;" (click)="closepopup()">X</label>
+<form #userForm="ngForm" (ngSubmit)="getUserFormData(userForm.value)"> 
+
+Name:<input type ="text" ngModel name="tourist_name" ><br> &nbsp;
+Email: <input type ="text"  ngModel  name="tourist_email" ><br> &nbsp;
+Location:<input type ="text" ngModel name="tourist_location" ><br> &nbsp;
+
+<button (click)="closepopup()"  >save</button> <button  style="float: right;"  (click)="closepopup()">close</button>
+
+</form>

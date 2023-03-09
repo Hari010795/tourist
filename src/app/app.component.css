@@ -1,0 +1,13 @@
+table{
+    width: 80%;
+      margin:auto;
+  }
+    .mat-paginator{
+      width: 80%;
+      margin:auto;
+      margin-bottom:1px solid black;
+    }
+    
+    th{
+      font-weight: 800;
+    }
